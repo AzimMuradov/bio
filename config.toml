@@ -59,6 +59,8 @@ paginate = 5
   # If there is a nav menu entry you dont want rendered on the homepage, add the identifier here
   homepageNavEntriesDontRender = ["showcase"]
 
+  remark42SiteID = "remark"
+  remark42Url = "http://185.146.156.232"
 
 [params.twitter]
   # set Twitter handles for Twitter cards
