@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+toc: true
 draft: true
 ---
 

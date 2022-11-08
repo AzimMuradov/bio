@@ -9,6 +9,7 @@ date: "{{ .Date }}"
 # description: ""
 showFullContent: false
 # readingTime: false
+toc: true
 hideComments: true
 color: "" # color from the theme settings
 draft: true
