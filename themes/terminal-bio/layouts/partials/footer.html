@@ -2,7 +2,7 @@
   <div class="footer__inner">
     {{ if $.Site.Copyright }}
       <div class="copyright copyright--user">
-        <span>{{ $.Site.Copyright | safeHTML }}</span>
+        <span>{{ replace $.Site.Copyright "{year}" now.Year }}</span>
     {{ else }}
       <div class="copyright">
         <span>© {{ now.Year }} Powered by <a href="http://gohugo.io">Hugo</a></span>
@@ -22,26 +22,6 @@
 
 {{ if $.Site.Params.showLanguageSelector }}
   <script src="{{ "assets/languageSelector.js" | absURL }}"></script>
-{{ end }}
-
-{{ if (and .Site.Params.remark42SiteID .Params.comments) }}
-<script>
-  var remark_config = {
-    host: {{ .Site.Params.remark42Url }},
-    site_id: {{ .Site.Params.remark42SiteID }}
-  };
-</script>
-
-<script>
-  !(function (e, n) {
-      for (var o = 0; o < e.length; o++) {
-          var r = n.createElement("script"),
-              c = ".js",
-              d = n.head || n.body;
-          "noModule" in r ? ((r.type = "module"), (c = ".mjs")) : (r.async = !0), (r.defer = !0), (r.src = "/js/" + e[o] + c), d.appendChild(r);
-      }
-  })(remark_config.components || ["embed"], document);
-</script>
 {{ end }}
 
 <!-- Extended footer section-->
