@@ -34,22 +34,7 @@ val sum = Symbol.rule<Int>(name = "Sum") {
 fun evalExpr(expression: String) =
     PegParser.parse(symbol = sum.value(), expression).getOrElse { null }
 
-val results = listOf(
-    evalExpr("1"),                         // 1
-    evalExpr("+1"),                        // 1
-    evalExpr("+ 1"),                       // null
-    evalExpr("+1 +"),                      // null
-    evalExpr("-17"),                       // -17
-    evalExpr("-1 7"),                      // null
-    evalExpr("1+2+3+4+5"),                 // 15
-    evalExpr("1 + +2 + -3 + +4 + 5"),      // 9
-    evalExpr("definitely not expression"), // null
-    evalExpr(""),                          // null
-)
-
-for (res in results) {
-    println(res)
-}
+println(evalExpr("+1 + 2 + -3 + +4 + 5")) // prints "9"
 {{< /code >}}
 
 
