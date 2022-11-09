@@ -1,13 +1,13 @@
 <footer class="footer">
   <div class="footer__inner">
     {{ if $.Site.Copyright }}
-      <div class="copyright copyright--user">
+      <div class="copyright copyright--message copyright--user">
         <span>{{ replace $.Site.Copyright "{year}" now.Year }}</span>
       </div>
       <div class="copyright">
         <span>:: ::</span>
       </div>
-      <div class="copyright">
+      <div class="copyright copyright--message">
         <span>Theme made by <a href="https://twitter.com/panr">panr</a> and single-page layout by <a href="https://justinnuwin.com">justinnuwin</a>.</span>
       </div>
     {{ end }}
