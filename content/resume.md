@@ -4,6 +4,8 @@ toc: true
 draft: true
 ---
 
+[//]: # ({{<badge link="/pdf/CV.pdf" target="_blank" class="badge" alt="Go to my website" label="Curriculum vitae &#40;PDF&#41;" message="my website" color="red" logo="github" logoColor="white" logoWidth="20" style="for-the-badge">}})
+
 {{<badge link="/pdf/cv.pdf" target="_blank" message="Curriculum vitae (PDF)" color="red" style="for-the-badge">}}
 
 {{< rawhtml >}}
@@ -71,15 +73,15 @@ draft: true
 
 ### Other skills
 
-{{< badge logo="c" label="C99, C11" color="grey" >}}
-{{< badge logo="c++" label="C++" color="grey" >}}
-{{< badge logo="rust" label="Rust" color="grey" >}}
-{{< badge logo="haskell" label="Haskell" color="grey" >}}
+{{< badge logo="c" logoColor="#A8B9CC" label="C99, C11" color="white" >}}
+{{< badge logo="c++" logoColor="#00599C" label="C++" color="white" >}}
+{{< badge logo="rust" logoColor="#000000" label="Rust" color="white" >}}
+{{< badge logo="haskell" logoColor="#5D4F85" label="Haskell" color="white" >}}
 
 {{< badge logo="linux" logoColor="black" label="Linux" color="white" >}}
-{{< badge logo="git" label="Git" color="white" >}}
-{{< badge logo="github" logoColor="black" label="GitHub Actions" color="white" >}}
-{{< badge logo="gradle" logoColor="black" label="Gradle" color="white" >}}
+{{< badge logo="git" label="Git" color="white" logoColor="#F05032" >}}
+{{< badge logo="github" logoColor="#181717" label="GitHub Actions" color="white" >}}
+{{< badge logo="gradle" logoColor="#02303A" label="Gradle" color="white" >}}
 
 - Basic and intermediate computer science algorithms and data structures
 - CI, Unit testing, Mock testing, shell scripting
