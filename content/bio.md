@@ -15,8 +15,3 @@ I’m also a big fan of Kotlin, functional programming, C, Rust and low-level pr
 
 In my free time, I'm busy with maintaining my pet projects, cooking,
 and listening to music (I'm a fan of prog rock and jazz).
-
-{{< badge link="https://github.com/AzimMuradov" target="_blank" logo="github" logoColor="#181717" logoColor="black" label="@AzimMuradov" color="white" >}}
-{{< badge link="https://t.me/AzimMuradov" target="_blank" logo="telegram" logoColor="#26A5E4" label="@AzimMuradov" color="white">}}
-
-<!-- {{< badge link="/pdf/CV.pdf" target="_blank" logo="linkedin" logoColor="#0A66C2" label="@AzimMuradov" color="white">}} -->
