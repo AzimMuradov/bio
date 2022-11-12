@@ -11,7 +11,7 @@ Right now, I am studying under the program "**Software Engineering**" at the Fac
 St. Petersburg State University.
 
 My main interests in programming are **program verification** and **symbolic analysis**.
-I’m also big fan of Kotlin, functional programming, C, Rust and low-level programming in general.
+I’m also a big fan of Kotlin, functional programming, C, Rust and low-level programming in general.
 
 In my free time, I'm busy with maintaining my pet projects, cooking,
 and listening to music (I'm a fan of prog rock and jazz).
