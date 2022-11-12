@@ -2,3 +2,15 @@
 To add an extended footer section, please create
 `layouts/partials/extended_footer.html` in your Hugo directory.
 -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="/js/vertical-timeline.min.js"></script>
+
+<script>
+    $('.timeline').verticalTimeline({
+        startLeft: false,
+        alternate: true,
+        animate: "fade",
+        arrows: false
+    });
+</script>

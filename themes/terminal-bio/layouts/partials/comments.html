@@ -12,8 +12,9 @@ or whatever comment engine you want -> https://gohugo.io/content-management/comm
     var remark_config = {
         host: 'https://azim.muradov.dev.fvds.ru',
         site_id: 'remark',
+        url: 'https://azim.muradov.dev.fvds.ru/' + {{ trim .Page.RelPermalink "/" }},
         theme: 'dark',
-        page_title: 'Chat',
+        page_title: {{ .Params.Title }},
         no_footer: true
     }
 </script>

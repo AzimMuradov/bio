@@ -1,0 +1,11 @@
+.footer__inner {
+    width: 100%;
+}
+
+.copyright span {
+    text-align: center;
+}
+
+.copyright--message {
+    flex-basis: 100%;
+}
