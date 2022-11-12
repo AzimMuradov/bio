@@ -10,7 +10,10 @@ draft: true
 
 Kotlin PEG[^1] parser with Kotlin DSL[^2].
 
-Lorem ipsum dolor as alsk' ;alsk'd; lak's;l k'a;slk  sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim asad as as aas as as as a a sas a sas as as.
+The project is inspired by the [pest parser](https://pest.rs/) and the [kotlin-peg-dsl project](https://github.com/mikaelhg/kotlin-peg-dsl).
+
+All these projects use parsing expression grammars (or PEG) as input.
+The main purpose of PEGs is to provide parsers convenient grammar to describe your language.
 
 [^1]: Parsing Expression Grammar
 [^2]: Domain Specific Language
