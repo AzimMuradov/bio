@@ -1,5 +1,7 @@
 .footer__inner {
     width: 100%;
+    margin-top: 20px;
+    opacity: 0.5;
 }
 
 .copyright span {
@@ -8,4 +10,20 @@
 
 .copyright--message {
     flex-basis: 100%;
+}
+
+.footer {
+    opacity: 1;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials a {
+    text-decoration-line: none;
+}
+
+.socials a img {
+    display: inline-block;
 }
