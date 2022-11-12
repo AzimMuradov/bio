@@ -6,9 +6,11 @@ draft: true
 
 ## KPEG
 
-Link to website - https://kpeg.io
+[{{< figure src="/img/kpeg.png" alt="Hello Friend" position="left" style="border-radius: 0;" caption="https://kpeg.io" captionPosition="center" captionStyle="color: black;" >}}](https://kpeg.io)
 
-Kotlin PEG[^1] parser with Kotlin DSL[^2]
+Kotlin PEG[^1] parser with Kotlin DSL[^2].
+
+Lorem ipsum dolor as alsk' ;alsk'd; lak's;l k'a;slk  sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim asad as as aas as as as a a sas a sas as as.
 
 [^1]: Parsing Expression Grammar
 [^2]: Domain Specific Language
@@ -16,7 +18,7 @@ Kotlin PEG[^1] parser with Kotlin DSL[^2]
 > **[From Wikipedia](https://en.wikipedia.org/wiki/Parsing_expression_grammar)**:
 > In computer science, a parsing expression grammar (PEG), is a type of analytic formal grammar, i.e. it describes a formal language in terms of a set of rules for recognizing strings in the language.
 
-{{< code language="kotlin" title="Simple usage example" id="1" expand="Show" collapse="Hide" isCollapsed="false" >}}
+{{< code language="kotlin" title="Simple usage example" expand="Show" collapse="Hide" isCollapsed="false" >}}
 val num = Symbol.rule<Int>(name = "Num", ignoreWS = false) {
     seq {
         val sign = +char('+', '-').orDefault('+')
