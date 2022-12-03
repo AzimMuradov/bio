@@ -79,7 +79,7 @@ params:
   # homepagePaginateCount: 2
 
   # If there is a nav menu entry you don't want rendered on the homepage, add the identifier here
-  homepageNavEntriesDontRender: [ home, bio, projects, resume, chat ]
+  homepageNavEntriesDontRender: [ home, bio, projects, resume ]
 
 
 languages:
@@ -119,7 +119,3 @@ languages:
           weight: 4
           name: 'Resume'
           url: /resume
-        - identifier: chat
-          weight: 5
-          name: 'Chat'
-          url: /chat
