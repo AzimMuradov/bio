@@ -6,7 +6,7 @@ draft: true
 
 ## KPEG
 
-[{{< figure src="/img/kpeg.png" alt="Hello Friend" position="left" style="border-radius: 0;" caption="https://kpeg.io" captionPosition="center" captionStyle="color: black;" >}}](https://kpeg.io)
+[{{< figure src="/img/kpeg.png" alt="KPEG logo" position="left" style="border-radius: 0;" caption="https://kpeg.io" captionPosition="center" captionStyle="color: black;" >}}](https://kpeg.io)
 
 Kotlin PEG[^1] parser with Kotlin DSL[^2].
 
@@ -45,11 +45,13 @@ println(evalExpr("+1 + 2 + -3 + +4 + 5")) // prints "9"
 
 ## Mini Go
 
-Link to github: https://github.com/AzimMuradov/fp2022-haskell/tree/mini-go/MiniGo
+Link to github: https://github.com/AzimMuradov/mini-go
 
-`TODO : Work In Progress`
+Mini Go (Golang) parser and interpreter written in Haskell.
 
 
-## SMT Solver
+## Mini Oracle
 
-`TODO : Work In Progress`
+Link to github: https://github.com/AzimMuradov/mini-oracle
+
+Mini-oracle can answer your questions. It's a full-stack machine-learning application that uses Hugging Face, Streamlit, Telegram Bot API, and Railway.
