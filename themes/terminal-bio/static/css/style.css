@@ -1,3 +1,7 @@
+.footnotes {
+    word-wrap: break-word;
+}
+
 .footer__inner {
     width: 100%;
     margin-top: 20px;
