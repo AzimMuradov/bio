@@ -95,4 +95,4 @@ See [projects page](../projects).
 
 [//]: # (Attributions)
 
-[^1]: {{< rawhtml >}}<a href="https://www.flaticon.com/free-icons/java" title="java icons">Java icons created by Freepik - Flaticon</a>{{< /rawhtml >}}
+[^1]: {{< rawhtml >}}<a href="https://www.flaticon.com/free-icons/java" target="_blank" title="java icons">Java icons created by Freepik - Flaticon</a>{{< /rawhtml >}}
