@@ -1,11 +1,14 @@
 # Hello there!
 
-Welcome to my bio site repository, you can find the site here: https://azim-dev.vercel.app/
-
-My name is **Azim Muradov**, and I'm a curious developer, hacker (^1),
+Welcome to my bio site! My name is **Azim Muradov**, and I'm a curious developer, hacker[^1],
 and active contributor to the open-source community.
 
-My main interests in programming are **program verification** and **symbolic execution**.
-I’m also a big fan of Kotlin, functional programming, C, Rust and low-level programming in general.
+Right now, I am studying under the program "**Software Engineering**" at the Faculty of Mechanics and Mathematics of
+St. Petersburg State University.
 
-(^1): http://www.catb.org/~esr/faqs/hacker-howto.html#what_is
+I mainly program in Kotlin, Rust and Haskell.
+
+In my free time, I'm busy with maintaining my pet [projects](https://azim-dev.vercel.app/projects), cooking,
+and listening to music (I'm a fan of prog rock and jazz).
+
+[^1]: http://www.catb.org/~esr/faqs/hacker-howto.html#what_is
