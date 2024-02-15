@@ -8,8 +8,6 @@ paginate: 5
 
 enableEmoji: true
 
-googleAnalytics: G-8CZ7BEG3H3
-
 
 params:
   # --- terminal ---
@@ -79,7 +77,7 @@ params:
   # homepagePaginateCount: 2
 
   # If there is a nav menu entry you don't want rendered on the homepage, add the identifier here
-  homepageNavEntriesDontRender: [ home, bio, projects, resume ]
+  homepageNavEntriesDontRender: [ projects, resume ]
 
 
 languages:
@@ -89,7 +87,7 @@ languages:
     subtitle: 'Software Engineer'
     owner: 'Azim Muradov'
     keywords: ''
-    copyright: 'Copyright 2022-{year} Azim Muradov. All Rights Reserved.'
+    copyright: 'Copyright 2022 Azim Muradov. All Rights Reserved.'
     menuMore: 'Show more'
     readMore: 'Read more'
     readOtherPosts: 'Read other posts'
@@ -100,22 +98,15 @@ languages:
     params:
       logo:
         logoText: 'Azim Muradov'
-        logoHomeLink: /
+        logoSplit: " / "   # Places logo text blocks in to spans so they wrap nicely
+        logoHomeLink: "/"
     menu:
       main:
         - identifier: home
           weight: 1
           name: 'Home'
-          url: /
-        - identifier: bio
-          weight: 2
-          name: 'Bio'
-          url: /bio
+          url: /#home
         - identifier: projects
-          weight: 3
+          weight: 2
           name: 'Projects'
           url: /projects
-        - identifier: resume
-          weight: 4
-          name: 'Resume'
-          url: /resume
