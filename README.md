@@ -1,6 +1,6 @@
 # Hello there!
 
-Welcome to my bio site! My name is **Azim Muradov**, and I'm a curious developer, hacker[^1],
+Welcome to my bio site repository! My name is **Azim Muradov**, and I'm a curious developer, hacker[^1],
 and active contributor to the open-source community.
 
 Right now, I am studying under the program "**Software Engineering**" at the Faculty of Mechanics and Mathematics of
