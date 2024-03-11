@@ -9,7 +9,7 @@ draft: true
 Stardew Valley Designer is a free and open-source Stardew Valley farm editor.
 The goal of this project is to provide a finely tuned, feature-rich editor for designing your farm and the interior of all its buildings.
 
-Link: https://azimmuradov.github.io/stardew-valley-designer
+Link: https://stardewdesigner.com
 
 
 ## MiniML Compiler
