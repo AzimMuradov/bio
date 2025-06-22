@@ -34,10 +34,3 @@ Kotlin PEG[^1] parser with Kotlin DSL[^2].
 [^2]: Domain Specific Languag
 
 Link: https://kpeg.io
-
-
-## Mini Oracle
-
-Mini-oracle can answer your questions. It's a full-stack machine-learning application that uses Hugging Face, Streamlit, Telegram Bot API, and Railway.
-
-Link to github: https://github.com/AzimMuradov/mini-oracle
